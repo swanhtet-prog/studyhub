@@ -236,3 +236,22 @@ header p {
 .delete:hover {
     background: #cbd5e1;
 }
+@media (max-width: 768px) {
+
+    .app {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
